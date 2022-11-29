@@ -1,0 +1,380 @@
+/* DESKTOP */
+
+body {
+  font: 0.95em "Arvo", serif;
+  /* background-color: rgb(102, 163, 255); */
+}
+
+nav {
+  white-space: nowrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 15%;
+  padding-top: 0.5rem;
+  background: #212529;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+
+.dropdown {
+  visibility: hidden;
+}
+
+.title-jumbotron {
+  font-size: 65px;
+}
+
+.p-jumbotron {
+  margin-left: 163px;
+  margin-right: 163px;
+  font: 22px "Fira Sans", sans-serif;
+  letter-spacing: -1px;
+}
+
+.lm-btn {
+  display: flex;
+  justify-content: center;
+  display: grid;
+  font: 30px "Fira Sans", sans-serif;
+  background-color: #e74c3c;
+}
+
+.logo-jumbotron {
+  padding-top: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-who {
+  display: block;
+  margin: 0 auto;
+}
+
+.title-who {
+  margin-top: 20px;
+  color: #e74c3c;
+}
+
+hr {
+  width: 195px;
+  border-top: 1px solid #e74c3c;
+}
+
+.p-who {
+  font: 20px "Fira Sans", sans-serif;
+  margin-top: 30px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.title-involved {
+  color: #e74c3c;
+}
+
+.cards-title {
+  font-size: 35px;
+  color: #e74c3c;
+  margin-top: 30px;
+}
+
+.cards-text {
+  font: 20px "Fira Sans", sans-serif;
+  font-size: 20px;
+}
+
+.btn-cards {
+  color: #e74c3c;
+  background-color: white;
+}
+
+footer {
+  height: 250px;
+  background-color: #e74c3c;
+}
+
+.logo-footer {
+  display: block;
+  padding-top: 170px;
+  margin-left: 17%;
+}
+
+.btt {
+  position: fixed;
+  bottom: 15px;
+  right: 1%;
+  height: 50px;
+  width: 50px;
+}
+
+/* MAX 1199 */
+
+@media screen and (max-width: 1199px) {
+  body {
+    font: 0.95em "Arvo", serif;
+    /* background-color: rgb(141, 15, 15); */
+  }
+
+  .title-jumbotron {
+    font-size: 59px;
+  }
+
+  .p-jumbotron {
+    margin-left: 200px;
+    margin-right: 200px;
+    font: 20px "Fira Sans", sans-serif;
+    letter-spacing: -1px;
+  }
+
+  .logo-who {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .title-who {
+    margin-top: 20px;
+    color: #e74c3c;
+  }
+
+  hr {
+    width: 195px;
+    border-top: 1px solid #e74c3c;
+  }
+
+  .p-who {
+    font: 20px "Fira Sans", sans-serif;
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .title-involved {
+    color: #e74c3c;
+  }
+
+  .cards-title {
+    font-size: 35px;
+    color: #e74c3c;
+    margin-top: 30px;
+  }
+
+  .cards-text {
+    font: 20px "Fira Sans", sans-serif;
+    font-size: 20px;
+  }
+
+  footer {
+    height: 250px;
+    background-color: #e74c3c;
+  }
+
+  .logo-footer {
+    display: block;
+    padding-top: 170px;
+    margin-left: 17%;
+  }
+
+  .btt {
+    position: fixed;
+    bottom: 15px;
+    right: 1%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/* MAX 991 */
+
+@media screen and (max-width: 991px) {
+  body {
+    font: 0.95em "Arvo", serif;
+    /* background-color: rgb(56, 158, 56); */
+  }
+
+  .title-jumbotron {
+    font-size: 46px;
+  }
+
+  .p-jumbotron {
+    margin-left: 65px;
+    margin-right: 65px;
+    font: 18px "Fira Sans", sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+  }
+
+  .logo-who {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .title-who {
+    margin-top: 20px;
+    color: #e74c3c;
+  }
+
+  hr {
+    width: 195px;
+    border-top: 1px solid #e74c3c;
+  }
+
+  .p-who {
+    font: 20px "Fira Sans", sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title-involved {
+    color: #e74c3c;
+  }
+
+  .cards-title {
+    font-size: 35px;
+    color: #e74c3c;
+    margin-top: 30px;
+  }
+
+  .cards-text {
+    font: 20px "Fira Sans", sans-serif;
+    font-size: 20px;
+  }
+
+  footer {
+    height: 250px;
+    background-color: #e74c3c;
+  }
+
+  .logo-footer {
+    display: block;
+    padding-top: 170px;
+    margin-left: 17%;
+  }
+
+  .btt {
+    position: fixed;
+    bottom: 15px;
+    right: 1%;
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/* MAX 767 */
+
+@media screen and (max-width: 767px) {
+  body {
+    font: 0.95em "Arvo", serif;
+    /* background-color: rgb(155, 52, 224); */
+  }
+
+  .dropdown {
+    visibility: visible;
+  }
+
+  .nav-item {
+    display: none;
+  }
+
+  .title-jumbotron {
+    font-size: 45px;
+  }
+
+  .p-jumbotron {
+    margin-left: 70px;
+    margin-right: 70px;
+    font: 17px "Fira Sans", sans-serif;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+  }
+
+  .logo-who {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .title-who {
+    margin-top: 20px;
+    color: #e74c3c;
+  }
+
+  hr {
+    width: 195px;
+    border-top: 1px solid #e74c3c;
+  }
+
+  .p-who {
+    font: 20px "Fira Sans", sans-serif;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .container {
+    box-sizing: border-box;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .title-involved {
+    color: #e74c3c;
+  }
+
+  .cards-title {
+    font-size: 35px;
+    color: #e74c3c;
+    margin-top: 30px;
+  }
+
+  .cards-text {
+    font: 20px "Fira Sans", sans-serif;
+    font-size: 20px;
+  }
+
+  .bt {
+    margin-bottom: 100px;
+  }
+
+  footer {
+    height: 250px;
+    background-color: #e74c3c;
+  }
+
+  .logo-footer {
+    display: block;
+    padding-top: 170px;
+    margin-left: 17%;
+  }
+
+  .btt {
+    position: fixed;
+    bottom: 15px;
+    right: 1%;
+    height: 50px;
+    width: 50px;
+  }
+}

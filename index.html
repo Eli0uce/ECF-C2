@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>One Million Lines</title>
+    <link rel="icon" type="image/png" href="./images/code.png" />
+
+    <!-- Font Family -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://fonts.googleapis.com/css?family=Arvo"
+    />
+
+    <!-- Font Awesome & Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <img
+        class="logo"
+        style="width: 200px"
+        src="./images/top-logo.png"
+        alt="Logo One Million Lines"
+        onmousedown="return false"
+      />
+
+      <!-- Burger and List -->
+      <ul class="text-uppercase">
+        <li>
+          <div class="dropdown show">
+            <a
+              class="btn btn-outline-secondary"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </a>
+    
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#who">Who We Are</a>
+              <a class="dropdown-item" href="#get-involved">Get Involved</a>
+            </div>
+          </div>
+        </li>
+        <li >
+          <a class="text-muted nav-item nav-link font-weight-bold" href="#who"
+            >Who We Are</a
+          >
+        </li>
+        <li>
+          <a
+            class="text-muted nav-item nav-link font-weight-bold"
+            href="#get-involved"
+            >Get Involved</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Jumbotron (Header Text & Banner) -->
+    <div
+      id="home"
+      class="jumbotron"
+      style="
+        height: 625px;
+        background: url(./images/hero-image.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border-radius: 0;
+      "
+    >
+      <h1 class="text-center text-white title-jumbotron">
+        Our goal is to inspire<br />Tallahassee to write 1,000,000<br />lines of
+        code_
+      </h1>
+      <br /><br />
+      <p class="text-center text-white p-jumbotron">
+        All over the country people are taking the <b>HOUR OF CODE</b> challenge
+        issued by <b>CODE.org</b>. Millions of lines of code are being written.
+        In the capital of Florida, Tallahassee, the community is taking the
+        challenge and our goal is to write 1,000,000 lines of code_
+      </p>
+      <button
+        type="button"
+        class="btn btn-lg btn-danger m-auto lm-btn text-white"
+      >
+        Learn More >>
+      </button>
+      <img
+        class="logo-jumbotron text-center"
+        src="./images/code.png"
+        alt="Logo CODE"
+        onmousedown="return false"
+      />
+    </div>
+
+    <!-- Who We Are -->
+    <div id="who" class="mb-5 bg-white">
+      <div>
+        <img
+          class="logo-who text-center"
+          src="./images/academy-brand-med.png"
+          alt="Logo Academie"
+          onmousedown="return false"
+        />
+        <h1 class="title-who text-center text-uppercase font-weight-bold">
+          Who we are
+        </h1>
+        <hr />
+        <p class="p-who text-center">
+          We are <span style="color: #e74c3c">MASSIVE Academy</span>. We aim to
+          improve education through both method - effective project-based
+          learning - and material - by teaching skills that are applicable to
+          improving your life today.
+        </p>
+      </div>
+    </div>
+    <!-- /#who -->
+
+    <!-- Get Involved -->
+    <div id="get-involved">
+      <section class="text-center get-involved bg-light pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h1
+                class="title-involved text-center text-uppercase font-weight-bold mt-5"
+              >
+                Get involved
+              </h1>
+              <hr />
+            </div>
+          </div>
+
+          <!-- Icons -->
+          <div class="row icon-part mt-4">
+            <!-- Students -->
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+              </span>
+              <h1 class="cards-title text-uppercase font-weight-bold">
+                Students
+              </h1>
+              <p class="cards-text">
+                Want to learn how to code? Want to help us get to 1,000,000
+                lines? Click the button below and we'll let you know how to get
+                involved.
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-cards bt"
+              >
+                Start Learning >>
+              </button>
+            </div>
+            <!-- Educators -->
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-pencil fa-stack-1x fa-inverse"></i>
+              </span>
+              <h1 class="cards-title text-uppercase font-weight-bold">
+                Educators
+              </h1>
+              <p class="cards-text">
+                Want to bring this initiative to your school or institution?
+                Awesome! Click the button below and we'll make it happen.
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-secondary btn-cards bt"
+              >
+                Join The Initiative >>
+              </button>
+            </div>
+            <!-- Sponsors -->
+            <div class="col-md-4">
+              <span class="fa-stack fa-4x">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i
+                  class="fa-regular fa-money-bill-1 fa-stack-1x fa-inverse"
+                ></i>
+              </span>
+              <h1 class="cards-title text-uppercase font-weight-bold">
+                Sponsors
+              </h1>
+              <p class="cards-text">
+                We love all the support we get to help host more events, and
+                empower more lives with the knowledge of coding. Click to get
+                involved.
+              </p>
+              <button type="button" class="btn btn-outline-secondary btn-cards">
+                Give Support >>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- /#get-involved -->
+
+    <!-- Footer with logo -->
+    <footer>
+      <img
+        class="logo-footer text-center"
+        src="./images/one-million-bottom-brand.png"
+        alt="Logo One Million Lines 'One Community_ One Million Lines of Code_'"
+        onmousedown="return false"
+      />
+    </footer>
+
+    <!-- Arrow up to Top -->
+    <div id="back-to-top">
+      <button
+        class="btt border-0 rounded-circle bg-dark"
+        onclick="topFunction()"
+        id="btt"
+      >
+        <i class="fa-solid fa-chevron-up fa-inverse"></i>
+      </button>
+    </div>
+    <!-- /#back-to-top -->
+    <script src="./script.js"></script>
+  </body>
+</html>
