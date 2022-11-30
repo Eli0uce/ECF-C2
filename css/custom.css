@@ -374,9 +374,10 @@ footer {
   }
 
   .logo-footer {
+    width: 250px;
     display: block;
     padding-top: 170px;
-    margin-left: 17%;
+    margin-left: 15%;
   }
 
   .btt {
