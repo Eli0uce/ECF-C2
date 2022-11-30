@@ -9,30 +9,6 @@ body {
   /* background-color: rgb(102, 163, 255); */
 }
 
-nav {
-  white-space: nowrap;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0rem 15%;
-  padding-top: 0.5rem;
-  background: #212529;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-nav li {
-  padding-left: 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #0d47a1;
-}
-
 .dropdown {
   visibility: hidden;
 }
@@ -139,8 +115,8 @@ footer {
   }
 
   .p-jumbotron {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 180px;
+    margin-right: 180px;
     font: 20px "Fira Sans", sans-serif;
     letter-spacing: -1px;
   }
@@ -216,9 +192,9 @@ footer {
   }
 
   .p-jumbotron {
-    margin-left: 65px;
-    margin-right: 65px;
-    font: 18px "Fira Sans", sans-serif;
+    margin-left: 150px;
+    margin-right: 150px;
+    font: 19px "Fira Sans", sans-serif;
     letter-spacing: -1px;
     margin-bottom: 25px;
   }
@@ -276,8 +252,9 @@ footer {
 
   .logo-footer {
     display: block;
+    width: 350px;
     padding-top: 170px;
-    margin-left: 17%;
+    margin-left: 10%;
   }
 
   .btt {
@@ -298,21 +275,13 @@ footer {
     /* background-color: rgb(155, 52, 224); */
   }
 
-  .dropdown {
-    visibility: visible;
-  }
-
-  .nav-item {
-    display: none;
-  }
-
   .title-jumbotron {
     font-size: 30px;
   }
 
   .p-jumbotron {
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
     font: 17px "Fira Sans", sans-serif;
     letter-spacing: -1px;
     margin-bottom: 20px;
@@ -374,10 +343,10 @@ footer {
   }
 
   .logo-footer {
-    width: 250px;
+    width: 300px;
     display: block;
     padding-top: 170px;
-    margin-left: 15%;
+    margin-left: 5%;
   }
 
   .btt {
