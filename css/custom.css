@@ -13,6 +13,10 @@ body {
   visibility: hidden;
 }
 
+.jumbotron {
+  height: 625px;
+}
+
 .title-jumbotron {
   font-size: 65px;
 }
@@ -110,6 +114,11 @@ footer {
     /* background-color: rgb(141, 15, 15); */
   }
 
+  .jumbotron {
+    height: 600px;
+  }
+  
+
   .title-jumbotron {
     font-size: 59px;
   }
@@ -121,61 +130,11 @@ footer {
     letter-spacing: -1px;
   }
 
-  .logo-who {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .title-who {
-    margin-top: 20px;
-    color: #e74c3c;
-  }
-
-  hr {
-    width: 195px;
-    border-top: 1px solid #e74c3c;
-  }
-
   .p-who {
     font: 20px "Fira Sans", sans-serif;
     margin-top: 30px;
     margin-left: 250px;
     margin-right: 250px;
-  }
-
-  .title-involved {
-    color: #e74c3c;
-  }
-
-  .cards-title {
-    font-size: 35px;
-    color: #e74c3c;
-    margin-top: 30px;
-  }
-
-  .cards-text {
-    font: 20px "Fira Sans", sans-serif;
-    font-size: 20px;
-  }
-
-  footer {
-    height: 250px;
-    background-color: #e74c3c;
-  }
-
-  .logo-footer {
-    display: block;
-    padding-top: 170px;
-    margin-left: 17%;
-  }
-
-  .btt {
-    position: fixed;
-    background-color: transparent;
-    bottom: 15px;
-    right: 1%;
-    height: 50px;
-    width: 50px;
   }
 }
 
@@ -187,6 +146,11 @@ footer {
     /* background-color: rgb(56, 158, 56); */
   }
 
+  .jumbotron {
+    height: 575px;
+  }
+  
+
   .title-jumbotron {
     font-size: 46px;
   }
@@ -197,21 +161,6 @@ footer {
     font: 19px "Fira Sans", sans-serif;
     letter-spacing: -1px;
     margin-bottom: 25px;
-  }
-
-  .logo-who {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .title-who {
-    margin-top: 20px;
-    color: #e74c3c;
-  }
-
-  hr {
-    width: 195px;
-    border-top: 1px solid #e74c3c;
   }
 
   .p-who {
@@ -230,28 +179,8 @@ footer {
     margin-left: auto;
   }
 
-  .title-involved {
-    color: #e74c3c;
-  }
-
-  .cards-title {
-    font-size: 35px;
-    color: #e74c3c;
-    margin-top: 30px;
-  }
-
-  .cards-text {
-    font: 20px "Fira Sans", sans-serif;
-    font-size: 20px;
-  }
-
   .bt {
     margin-bottom: 100px;
-  }
-
-  footer {
-    height: 250px;
-    background-color: #e74c3c;
   }
 
   .logo-footer {
@@ -259,15 +188,6 @@ footer {
     width: 350px;
     padding-top: 170px;
     margin-left: 10%;
-  }
-
-  .btt {
-    position: fixed;
-    background-color: transparent;
-    bottom: 15px;
-    right: 1%;
-    height: 50px;
-    width: 50px;
   }
 }
 
@@ -277,6 +197,10 @@ footer {
   body {
     font: 0.95em "Arvo", serif;
     /* background-color: rgb(155, 52, 224); */
+  }
+
+  .jumbotron {
+    height: 475px;
   }
 
   .title-jumbotron {
@@ -291,21 +215,6 @@ footer {
     margin-bottom: 20px;
   }
 
-  .logo-who {
-    display: block;
-    margin: 0 auto;
-  }
-
-  .title-who {
-    margin-top: 20px;
-    color: #e74c3c;
-  }
-
-  hr {
-    width: 195px;
-    border-top: 1px solid #e74c3c;
-  }
-
   .p-who {
     font: 20px "Fira Sans", sans-serif;
     margin-top: 30px;
@@ -322,28 +231,8 @@ footer {
     margin-left: auto;
   }
 
-  .title-involved {
-    color: #e74c3c;
-  }
-
-  .cards-title {
-    font-size: 35px;
-    color: #e74c3c;
-    margin-top: 30px;
-  }
-
-  .cards-text {
-    font: 20px "Fira Sans", sans-serif;
-    font-size: 20px;
-  }
-
   .bt {
     margin-bottom: 100px;
-  }
-
-  footer {
-    height: 250px;
-    background-color: #e74c3c;
   }
 
   .logo-footer {
@@ -351,14 +240,5 @@ footer {
     display: block;
     padding-top: 170px;
     margin-left: 5%;
-  }
-
-  .btt {
-    position: fixed;
-    background-color: transparent;
-    bottom: 15px;
-    right: 1%;
-    height: 50px;
-    width: 50px;
   }
 }
