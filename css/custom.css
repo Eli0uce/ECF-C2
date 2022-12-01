@@ -245,6 +245,10 @@ footer {
     font-size: 20px;
   }
 
+  .bt {
+    margin-bottom: 100px;
+  }
+
   footer {
     height: 250px;
     background-color: #e74c3c;
